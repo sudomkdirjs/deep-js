@@ -1,0 +1,5 @@
+
+const first = 2 in [1, 2];
+const second = '2' in [0, 1, 2];
+
+console.log(first, second);
