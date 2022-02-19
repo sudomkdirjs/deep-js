@@ -1,5 +1,5 @@
 
-
+// A function which takes another function as a argument/input Or A function which return another function is called Higher Order Function.
 
 // This function y is called Higher Order Function. Because it receives another function in argument.
 function y(func) {
