@@ -34,3 +34,24 @@ function multiplyReducer(accumulator, value, index, arr) {
 
 let result = arr.reduce(multiplyReducer);
 console.log(result);
+
+function findMax() {
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max)
+            max = arr[i];
+    }
+    console.log(max);
+}
+
+findMax();
+
+function maxReducer(accumulator, value) {
+    if(value > accumulator)
+        return value;
+    
+    return accumulator;
+}
+
+let max = arr.reduce(maxReducer);
+console.log(max);
