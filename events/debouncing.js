@@ -14,7 +14,7 @@ const getData = () => {
 // Only make call if the difference between the time interval between two function call is greater than the delay.
 // Only if we give pause while typing the API call will happen.
 // Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.
-const debounce = (func, delay) => {
+const debounce = function (func, delay) {
     let timer;
     return function () {
         let context = this;
