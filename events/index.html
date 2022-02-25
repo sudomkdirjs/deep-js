@@ -24,6 +24,7 @@
         </div>
     </div>
     <ul id="ecommerce-categories">
+        <h3>Event Delegation</h3>
         <ui id="electronics-category">
             <li id="laptops">Laptops</li>
             <li id="mobiles">Mobiles</li>
@@ -31,11 +32,17 @@
         </ui>
     </ul>
     <form action="" id="form">
+        <h3>Event Delegation</h3>
         <input type="text" id="name" data-uppercase>
         <input type="text" id="pan" data-uppercase>
         <input type="text" id="city">
         <input type="text" id="phone" data-india-phone-code>
     </form>
-    <script async src="./event_delegation.js"></script>
+    <form action="" id="form">
+        <h3>Debouncing</h3>
+        <input type="text" id="flipkart-search-box1" onkeyup="getData()">
+        <input type="text" id="flipkart-search-box2" onkeyup="optimizedGetData()">
+    </form>
+    <script async src="./debouncing.js"></script>
 </body>
 </html>
