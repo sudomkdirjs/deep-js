@@ -1,0 +1,29 @@
+{
+  "name": "deep-js",
+  "version": "1.0.0",
+  "description": "JavaScript concepts in depth",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudomkdirjs/deep-js.git"
+  },
+  "keywords": [
+    "js",
+    "deep-js"
+  ],
+  "author": "marees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudomkdirjs/deep-js/issues"
+  },
+  "homepage": "https://github.com/sudomkdirjs/deep-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "deep-eql": "^4.0.0",
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+  }
+}

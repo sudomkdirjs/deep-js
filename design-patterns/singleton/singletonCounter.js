@@ -1,5 +1,5 @@
 let instance;
-let counter = 0;
+let count = 0;
 
 class Counter {
 
@@ -15,7 +15,7 @@ class Counter {
     }
 
     getCount() {
-        return counter;
+        return count;
     }
 
     increment() {
@@ -29,4 +29,4 @@ class Counter {
 
 const singletonCounter = Object.freeze(new Counter());
 
-export default singletonCounter;
+module.exports = singletonCounter;
